@@ -1,0 +1,18 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "A simple static server for hosting files on amp.pharm.mssm.edu/static",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Michael McDermott",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "compression": "^1.5.2",
+    "connect-timeout": "^1.7.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.3"
+  }
+}
